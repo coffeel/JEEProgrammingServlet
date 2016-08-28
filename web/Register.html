@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration From</title>
+</head>
+<body>
+<h1>Registration Form</h1>
+<hr>
+<form name="f1" method="POST" action="/register">
+    <table>
+        <tbody>
+        <tr>
+            <td>User Name:</td>
+            <td><input type="text" name="userName"></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="text" name="password"></td>
+        </tr>
+        <tr>
+            <td>Sex:</td>
+            <td>
+                <input type="radio" name="gender" value="Male"/>Male &nbsp;
+                <input type="radio" name="gender" value="Female"/>Female &nbsp;
+            </td>
+        </tr>
+
+        <tr>
+            <td>Hobbies:</td>
+            <td>
+                <input type="checkbox" name="hobbies" value="Movies"/>Movies &nbsp;
+                <input type="checkbox" name="hobbies" value="Music"/>Music &nbsp;
+                <input type="checkbox" name="hobbies" value="Sports"/>Music &nbsp;
+            </td>
+        </tr>
+
+        <tr>
+            <td>Country:</td>
+            <td>
+                <select name="country">
+                    <option value="China">China</option>
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Languages Known:</td>
+            <td>
+                <select name="languages" multiple="multiple">
+                    <option value="Arabic">Arabic</option>
+                    <option value="Chinese">Chinese</option>
+                    <option value="English">English</option>
+                    <option value="French">French</option>
+                    <option value="Hindi">Hindi</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>&nbsp;</td>
+            <td>
+                <input type="submit" value="Register" name="btnRegister"/>
+                <input type="reset" value="clear" name="btnClear/>">
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</form>
+</body>
+</html>
