@@ -39,6 +39,10 @@
         <servlet-name>Step2</servlet-name>
         <servlet-class>com.company.Step2</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Preview</servlet-name>
+        <servlet-class>com.company.Preview</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>AutoRefreshPage</servlet-name>
         <url-pattern>/autorefreshpage</url-pattern>
@@ -74,6 +78,10 @@
     <servlet-mapping>
         <servlet-name>Step2</servlet-name>
         <url-pattern>/Step2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Preview</servlet-name>
+        <url-pattern>/Preview</url-pattern>
     </servlet-mapping>
 
     <filter>
